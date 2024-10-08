@@ -10,7 +10,7 @@ createApp({
         axios.get('http://localhost/php-dischi-json/db/dischi.json')
             .then((response) => {
                 this.albums = response.data;
-                console.table(this.albums);
+                console.table(response.data);
             })
     }
 }).mount('#app')
