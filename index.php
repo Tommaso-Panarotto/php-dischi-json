@@ -13,8 +13,9 @@
 
 <body>
     <div id="app">
-        <h1>php-dischi-json</h1>
-        <h2>{{albums}}</h2>
+        <div class="row">
+            <div class="col" v-for="(album,index) in albums">{{album.title}}</div>
+        </div>
     </div>
     <!--Axios-->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
