@@ -14,8 +14,10 @@
 <body>
     <div id="app">
         <h1>php-dischi-json</h1>
-        <h2>{{message}}</h2>
+        <h2>{{albums}}</h2>
     </div>
+    <!--Axios-->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <!--VUE-->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!--JS-->
